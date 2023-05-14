@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  ShopOnBed
 //
-//  Created by Наталья Рябкова on 14.05.2023.
+//  Created by Andrey Pozdnyakov on 14.05.2023.
 //
 
 import SwiftUI
