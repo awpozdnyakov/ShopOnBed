@@ -32,7 +32,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E11C6FB92A113EB20047A77C /* Flows */ = {
+		E11EDA202A115E99009548E3 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
 				E1C67AD12A1123B50074A290 /* ContentView.swift */,
@@ -40,60 +40,59 @@
 			path = Flows;
 			sourceTree = "<group>";
 		};
-		E11C6FBA2A113EF90047A77C /* App */ = {
+		E11EDA212A115EA4009548E3 /* BussinessLogic */ = {
 			isa = PBXGroup;
 			children = (
-				E11C6FBC2A113F2F0047A77C /* Buisness Logic */,
-				E11C6FBB2A113F040047A77C /* Entity */,
-				E11C6FBD2A113F840047A77C /* Assembly */,
-				E11C6FB92A113EB20047A77C /* Flows */,
 			);
-			path = App;
+			path = BussinessLogic;
 			sourceTree = "<group>";
 		};
-		E11C6FBB2A113F040047A77C /* Entity */ = {
+		E11EDA222A115F0A009548E3 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		E11C6FBC2A113F2F0047A77C /* Buisness Logic */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Buisness Logic";
-			sourceTree = "<group>";
-		};
-		E11C6FBD2A113F840047A77C /* Assembly */ = {
+		E11EDA232A115F18009548E3 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Assembly;
 			sourceTree = "<group>";
 		};
-		E11C6FBE2A113FAF0047A77C /* Resources */ = {
+		E11EDA242A115F36009548E3 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				E1C67AD52A1123B60074A290 /* Preview Content */,
-				E1C67AD32A1123B60074A290 /* Assets.xcassets */,
+				E11EDA212A115EA4009548E3 /* BussinessLogic */,
+				E11EDA232A115F18009548E3 /* Assembly */,
+				E11EDA222A115F0A009548E3 /* Entity */,
+				E11EDA202A115E99009548E3 /* Flows */,
 			);
-			path = Resources;
+			path = App;
 			sourceTree = "<group>";
 		};
-		E11C6FBF2A11404A0047A77C /* Core */ = {
+		E11EDA252A115F44009548E3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		E11C6FC02A1140680047A77C /* Environmets */ = {
+		E11EDA262A115F53009548E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C67AD32A1123B60074A290 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E11EDA272A115F66009548E3 /* Environments */ = {
 			isa = PBXGroup;
 			children = (
 				E1C67ACF2A1123B50074A290 /* ShopOnBedApp.swift */,
 			);
-			path = Environmets;
+			path = Environments;
 			sourceTree = "<group>";
 		};
 		E1C67AC32A1123B50074A290 = {
@@ -115,10 +114,11 @@
 		E1C67ACE2A1123B50074A290 /* ShopOnBed */ = {
 			isa = PBXGroup;
 			children = (
-				E11C6FBA2A113EF90047A77C /* App */,
-				E11C6FBF2A11404A0047A77C /* Core */,
-				E11C6FC02A1140680047A77C /* Environmets */,
-				E11C6FBE2A113FAF0047A77C /* Resources */,
+				E11EDA242A115F36009548E3 /* App */,
+				E11EDA252A115F44009548E3 /* Core */,
+				E11EDA262A115F53009548E3 /* Resources */,
+				E11EDA272A115F66009548E3 /* Environments */,
+				E1C67AD52A1123B60074A290 /* Preview Content */,
 			);
 			path = ShopOnBed;
 			sourceTree = "<group>";
